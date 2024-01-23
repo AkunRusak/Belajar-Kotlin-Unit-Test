@@ -27,6 +27,12 @@ dependencies {
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
+    // This dependency is Parameter
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.6.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-params:5.6.2")
+
+    testImplementation("org.mockito:mockito-junit-jupiter:5.9.0")
+
     // This dependency is used by the application.
     implementation(libs.guava)
 }
